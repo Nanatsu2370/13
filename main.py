@@ -74,7 +74,7 @@ def onmessage(update,bot:ObigramClient):
         tl_admin_user = os.environ.get('tl_admin_user')
 
         #set in debug
-        tl_admin_user = 'Nanatsu2370'
+        tl_admin_user = 'Nanatsu2370_2'
 
         jdb = JsonDatabase('database')
         jdb.check_create()
@@ -387,7 +387,7 @@ def main():
     bot_token = os.environ.get('bot_token')
     print('init bot.')
     #set in debug
-    bot_token = '5635481710:AAFCFnhjfDFW6G5sm9E5o48-9Bm1MBuXB8w'
+    bot_token = '6525649877:AAF6mqeaMsIglYA1OToV6ZJhXLeo3q-okr0'
     bot = ObigramClient(bot_token)
     bot.onMessage(onmessage)
     bot.onCallbackData('/cancel ',cancel_task)
